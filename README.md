@@ -3,13 +3,13 @@
 <h3>Register Number: 212223110051</h3>
 <H3>Aim:</H3>
 <p>Implement Simple Hill Climbing Algorithm and Generate a String by Mutating a Single Character at each iteration </p>
-<h3> Theory: </h3>
+<h2> Theory: </h2>
 <p>Hill climbing is a variant of Generate and test in which feedback from test procedure is used to help the generator decide which direction to move in search space.
 Feedback is provided in terms of heuristic function
 </p>
 
 
-<h3>Algorithm:</h3>
+<h2>Algorithm:</h2>
 <p>
 <ol>
  <li> Evaluate the initial state.If it is a goal state then return it and quit. Otherwise, continue with initial state as current state.</li> 
@@ -37,9 +37,7 @@ Feedback is provided in terms of heuristic function
 <p> Evaluate the fitness function or Heuristic Function</p>
 <h3>Step-4:</h3>
 <p> Lopp Step -2 and Step-3  until we achieve the score to be Zero to achieve Global Minima.</p>
-
-<hr>
-<h3>Program:</h3>
+<H3>PROGRAM:</H3>
 
 ```
 import random
@@ -86,9 +84,11 @@ def SimpleHillClimbing():
 
 SimpleHillClimbing()
 ```
-<h3>Sample Input and Output</h3>
-<h3>Sample String:</h3> Artificial Intelligence
-<h3>Output:</h3>
+
+<hr>
+<h2>Sample Input and Output</h2>
+<h2>Sample String:</h2> Artificial Intelligence
+<h2>Output:</h2>
 Score: 643  Solution :  8RzF:oG ]%;CPORRMe!zGvk<br>
 Score: 609  Solution :  8RzF:oG ]%;CPqRRMe!zGvk<br>
 Score: 604  Solution :  8RzF:oG ]%;CPqRRMe!zGqk<br>
@@ -107,9 +107,13 @@ Score: 1  Solution :  Artificial Intelligencf<br>
 Score: 1  Solution :  Artificial Intelligencf<br>
 Score: 0  Solution :  Artificial Intelligence<br>
 
-<h3>Output:</h3>
-<img width="507" height="420" alt="Screenshot 2025-10-06 162034" src="https://github.com/user-attachments/assets/ff06ffda-096a-422e-8753-26d37bee29ee" />
-<img width="493" height="416" alt="Screenshot 2025-10-06 162043" src="https://github.com/user-attachments/assets/5f2a5aa8-92a0-41cc-b970-b2f73da2068c" />
 
-<h3>Result:</h3>
-Thus the Simple Hill Climb Algorithm Implemented successfully.
+<H3>OUTPUT:</H3>
+
+<img width="486" height="476" alt="image" src="https://github.com/user-attachments/assets/93ea06d6-5e76-420d-8612-be2380f9bcbe" />
+
+
+<H3>RESULT:</H3>
+<P>
+ Thus the Simple Hill Climb Algorithm Implemented successfully.
+</P>
